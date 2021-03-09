@@ -10,13 +10,6 @@ import java.util.Scanner;
  */
 public class test {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String count = scanner.next();
-        int index = 0;
-        while (index < 1) {
-            String tmp = scanner.nextLine();
-            System.out.print(tmp + "*****");
-            index++;
-        }
+        System.out.println("q12".compareTo("a23"));
     }
 }
